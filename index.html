@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta content="ie=edge" http-equiv="x-ua-compatible">
+	<title>Deadpool</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-lightbox.css">
+
+</head>
+<body>
+	<div class="wrapper">
+		<!-- Header -->
+		<header class="header">
+			<div class="header__container">
+				<div class="header__left">
+					<span class="header__title">Deadpool</span>
+					<span>2016</span>
+					<span>USA</span>
+					<span class="pink">18+</span>
+				</div>
+				<div class="header__right">
+					<div class="logo">
+						<img src="img/logo.png" alt="">
+						<span>spike</span>
+					</div>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="main-nav">
+						<ul class="main-nav__list">
+							<li class="nav-menu__item"><a href="#" class="nav-menu__link">Все кино</a></li>
+							<li class="nav-menu__item"><a href="#" class="nav-menu__link">Рейтинги</a></li>
+							<li class="nav-menu__item"><a href="#" class="nav-menu__link">Общение</a></li>
+							<li class="nav-menu__item"><a href="#" class="nav-menu__link">Войти</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<!-- Анонс -->
+		<section class="main">
+			<div class="main__container container">
+				<div class="main__description">
+					<div class="main__description_pic"><img src="img/poster.jpg" alt=""></div>
+					<div class="main__description_txt">
+						<p>Уэйд Уилсон — наёмник. Будучи побочным продуктом программы вооружённых сил под названием «Оружие X», Уилсон приобрёл невероятную силу, проворство и способность к исцелению. Но страшной ценой: его клеточная структура постоянно меняется, а здравомыслие сомнительно. Всё, чего Уилсон хочет, — это держаться на плаву в социальной выгребной яме. Но течение в ней слишком быстрое.</p>
+					</div>
+				</div>
+				<div class="main__rating">
+					<ul class="rating_list">
+						<li class="rating_title">Рецензии:</li>
+						<li class="rating_item positive"><span>266</span>положительных</li>
+						<li class="rating_item neutral"><span>41</span>нейтральных</li>
+						<li class="rating_item negative"><span>66</span>отрицательных</li>
+					</ul>
+				</div>
+				<div class="main__trailer">
+					<div id="player"></div>
+					<div class="player-overlay">
+						<img class="trailer_pic" id="thumbnail">
+							<a class="play">	
+								<svg version="1.1" id="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100px" width="100px"
+	 						viewBox="-3 -3 110 110" enable-background="new 0 0 100 100" xml:space="preserve">
+  										<path class="stroke-solid" fill="none" stroke="#ffffff"  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+    C97.3,23.7,75.7,2.3,49.9,2.5"/>
+  										<path class="icon" fill="#ffffff" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+								</svg>
+					</a>		
+					</div>				
+				</div>
+				<!-- Слайдер -->
+				<div class="main__slider">
+					<div class="main__slider_item">
+						<div class="main__slider_container">
+							<img src="img/gallery/pic-1.jpg" alt="">
+							<div class="main__slider_overlay"></div>
+						</div>	
+					</div>
+					<div class="main__slider_item">
+						<div class="main__slider_container">
+							<img src="img/gallery/pic-2.jpg" alt="">
+							<div class="main__slider_overlay"></div>
+						</div>
+					</div>
+					<div class="main__slider_item">
+						<div class="main__slider_container">
+							<img src="img/gallery/pic-3.jpg" alt="">
+							<div class="main__slider_overlay"></div>
+						</div>
+					</div>
+					<div class="main__slider_item">
+						<div class="main__slider_container">
+							<img src="img/gallery/pic-1.jpg" alt="">
+							<div class="main__slider_overlay"></div>
+						</div>
+					</div>
+					<div class="main__slider_item">
+						<div class="main__slider_container">
+							<img src="img/gallery/pic-2.jpg" alt="">
+							<div class="main__slider_overlay"></div>
+						</div>
+					</div>
+					<div class="main__slider_item">
+						<div class="main__slider_container">
+							<img src="img/gallery/pic-3.jpg" alt="">
+							<div class="main__slider_overlay"></div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<ul class="footer__list">
+					<li class="footer__item"><a class="footer__link" href="#">Реклама</a></li>
+					<li class="footer__item"><a class="footer__link" href="#">Условия пользования</a></li>
+					<li class="footer__item">© 2003–2016 Spike</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
+</html>
